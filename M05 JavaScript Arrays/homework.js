@@ -204,14 +204,14 @@ function breakStatement(num) {
    for( let i = 0; i < 10; i ++){
    suma += 2
    if(suma === i) break;
-   else{
-      arrayN.push(suma)
+   else nuevoArray.push(suma)
    }
+   if (suma === num){
+      return  "Se interrumpió la ejecución";
+   }else {return nuevoArray;
 }
-if(i< 10){
-   return "Se interrumpió la ejecución"
-} else {return arrayN;}
 }
+    
 
    
 
